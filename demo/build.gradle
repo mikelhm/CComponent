@@ -61,7 +61,7 @@ dependencies {
     //      module依赖 : project(':demo_component_b') //如果module名称跟dependencyName相同，可省略(推荐)
     //      maven依赖  : 'com.billy.demo:demoB:1.1.0' //如果使用了maven私服，请使用此方式
     addComponent 'demo_component_a'
-    addComponent 'demo_component_kt'
+//    addComponent 'demo_component_kt'
     addComponent 'demo_component_jsbridge'
 
     //单独运行demo_component_b时，只需在local.properties中添加demo_component_b=true即可
